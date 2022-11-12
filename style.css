@@ -60,13 +60,10 @@ main
 	translate: 0 -50%;
 }
 
-.numberOfWins {
-	box-sizing: border-box;
-	text-align: center;
-	color: yellow;
-	background-image: url("bg-nedk.jpg");
-	border-radius: 1em;
-	padding: 1em;
-	margin-bottom: 1em;
-	width: fit-content;
+#my-canvas {
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 5;
+	z-index: 10;
 }
